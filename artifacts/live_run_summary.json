@@ -1,0 +1,11 @@
+{
+  "model": "qwen/qwen3-8b",
+  "ensemble_models": [
+    "qwen/qwen3-8b",
+    "meta-llama/llama-3.1-8b-instruct",
+    "openai/gpt-4o-mini"
+  ],
+  "n_model_predictions": 1000,
+  "n_ensemble_predictions": 750,
+  "parse_ok_rate": 0.704
+}
