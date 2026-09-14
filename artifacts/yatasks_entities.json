@@ -1,0 +1,9 @@
+{
+  "project_id": "demo_project_rusentiment",
+  "pool_id": "demo_pool_overlap3",
+  "training_pool_id": "demo_pool_train",
+  "exam_pool_id": "demo_pool_exam",
+  "overlap": 3,
+  "created_offline": true,
+  "note": "Идентификаторы-заглушки. На занятии живой пул не создаём."
+}

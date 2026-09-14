@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Длина поста по меткам — RuSentiment</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 960px; margin: 24px auto; padding: 0 16px; }
+    h1 { font-size: 1.25rem; }
+    p { color: #444; }
+    img { display: block; max-width: 100%; margin: 24px 0; border: 1px solid #e5e7eb; }
+    h2 { font-size: 1rem; margin-top: 32px; }
+  </style>
+</head>
+<body>
+  <h1>Длина поста (символы) по метке</h1>
+  <p>Источник: artifacts/dataset_prepared.parquet, n=210 (42 на класс).</p>
+
+  <h2>Boxplot + точки</h2>
+  <img src="label_length_boxplot.png" alt="boxplot">
+
+  <h2>Violin</h2>
+  <img src="label_length_violin.png" alt="violin">
+
+  <h2>Mean и median</h2>
+  <img src="label_length_means.png" alt="means">
+
+  <h2>Гистограммы по классам</h2>
+  <img src="label_length_hist_grid.png" alt="histograms">
+</body>
+</html>
