@@ -1,22 +1,27 @@
-# Данные семинара «Модель как исполнитель разметки»
+# Семинар 4. Модель как исполнитель разметки
 
-Подвыборка [RuSentiment](https://github.com/strawberrypie/rusentiment) и готовые артефакты для практического занятия DLCOURSE-65.
+Практический ноутбук и материалы для занятия DLCOURSE-65.
 
-Лицензия данных: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) — см. `data/SOURCE.md`.
+Датасет — подвыборка [RuSentiment](https://github.com/strawberrypie/rusentiment). Лицензия данных: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) — см. `data/SOURCE.md`.
 
 ## Содержимое
 
-| Папка | Что внутри |
+| Файл / папка | Что внутри |
 |---|---|
+| `seminar.ipynb` | ноутбук занятия |
+| `.env.example` | шаблон секретов (скопировать в `.env`) |
 | `data/` | `dataset.csv`, инструкция для людей, иллюстрации и схемы |
 | `artifacts/` | сплиты, ответы людей, предсказания моделей, журнал вызовов |
 
-Ноутбук семинара скачивает эти папки автоматически при первом запуске.
+## Как запустить
 
-## Ручная установка
+**Локально или в Colab с полным клоном:**
 
 ```bash
 git clone https://github.com/MilordEv/seminar4-model-as-annotator-data.git
+cd seminar4-model-as-annotator-data
 ```
 
-Скопируйте `data/` и `artifacts/` рядом с `seminar.ipynb`, либо откройте ноутбук — он подтянет архив сам.
+Откройте `seminar.ipynb` — `data/` и `artifacts/` уже рядом.
+
+**Только ноутбук в Colab:** при первом запуске ноутбук сам скачает `data/` и `artifacts/` из этого репозитория.
