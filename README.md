@@ -4,6 +4,8 @@
 
 Датасет — подвыборка [RuSentiment](https://github.com/strawberrypie/rusentiment). Лицензия данных: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) — см. `data/SOURCE.md`.
 
+Готовое разбиение содержит все 260 постов: `prompt_examples` — 60 (по 12 каждого класса), `calibration` — 50, `test` — 150. Банк few-shot уже включён в `artifacts/dataset_prepared.parquet` и `artifacts/split_manifest.json`; дополнительно собирать его в ноутбуке не нужно. Оценочные сплиты и их `task_id` сохранены без изменений.
+
 ## Содержимое
 
 | Файл / папка | Что внутри |
