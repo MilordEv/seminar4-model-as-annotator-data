@@ -1,0 +1,18 @@
+{
+  "confidence_method": "full_prompt_no_thinking_float32_v1",
+  "model_name": "hf/Qwen/Qwen3-4B",
+  "classifier_config": "thinking",
+  "threshold": 0.9999918937683105,
+  "selection_split": "calibration",
+  "selection_metric": "macro_f1",
+  "min_coverage": 0.25,
+  "calibration_n": 50,
+  "n_thresholds": 41,
+  "calibration_n_auto": 15,
+  "calibration_coverage": 0.3,
+  "calibration_auto_accuracy": 0.9333333333333333,
+  "calibration_auto_macro_f1": 0.7644444444444444,
+  "test_n": 150,
+  "test_n_auto": 53,
+  "test_coverage": 0.35333333333333333
+}

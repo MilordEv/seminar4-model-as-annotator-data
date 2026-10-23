@@ -1,0 +1,39 @@
+{
+  "confidence_method": "full_prompt_no_thinking_float32_v1",
+  "model_name": "hf/Qwen/Qwen3-4B",
+  "classifier_config": "thinking",
+  "threshold": 0.9999918937683105,
+  "selection_split": "calibration",
+  "selection_metric": "macro_f1",
+  "min_coverage": 0.25,
+  "calibration_n": 50,
+  "n_thresholds": 41,
+  "calibration_n_auto": 15,
+  "calibration_coverage": 0.3,
+  "calibration_auto_accuracy": 0.9333333333333333,
+  "calibration_auto_macro_f1": 0.7644444444444444,
+  "test_n": 150,
+  "test_n_auto": 53,
+  "test_coverage": 0.35333333333333333,
+  "created_at": "2026-10-23T08:05:56.605406+00:00",
+  "model_predictions_n": 200,
+  "confidence_cache": "confidence_8274c776baee88baa4b99e650ccd911d6d4c8d02966194c85cbe982921d73db1.json",
+  "calibration_auroc": 0.7083333333333334,
+  "calibration_ece": 0.3379790171398749,
+  "unique_confidence_by_split": {
+    "calibration": 41,
+    "test": 113
+  },
+  "torch_version": "2.11.0+cu130",
+  "transformers_version": "5.20.1",
+  "model_weights_dtype": "torch.float16",
+  "scoring_dtype": "float32",
+  "classifier_predictions_changed": false,
+  "unchanged_artifacts": [
+    "human_answers.parquet",
+    "dataset_prepared.parquet",
+    "ensemble_predictions.parquet",
+    "call_log.parquet"
+  ],
+  "note": "Threshold selected on calibration only; test used for fixed-rule reporting. Scheme up to five people uses three-person quality proxy."
+}
